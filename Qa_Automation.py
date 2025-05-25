@@ -20,7 +20,7 @@ def driver():
     yield driver
     driver.quit()
 
-# Hotel Search with valid details
+## Hotel Search with valid details
 def test_1(driver):
     sleep(15)
     Hotel_tab= driver.find_element(By.XPATH,"//span[text()='Hotels']")
