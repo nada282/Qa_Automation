@@ -2,7 +2,11 @@ import sys
 from gc import freeze
 from time import sleep
 import pytest
+<<<<<<< HEAD
 import uc
+=======
+# import uc
+>>>>>>> 4fae5697e9b6ab7f31336c9d115637a06fe2d5fa
 from pyexpat.errors import messages
 from selenium.webdriver.common.by import By
 import undetected_chromedriver as uc
@@ -20,7 +24,11 @@ def driver():
     yield driver
     driver.quit()
 
+<<<<<<< HEAD
 # Hotel Search with valid details
+=======
+## Hotel Search with valid details
+>>>>>>> 4fae5697e9b6ab7f31336c9d115637a06fe2d5fa
 def test_1(driver):
     sleep(15)
     Hotel_tab= driver.find_element(By.XPATH,"//span[text()='Hotels']")
